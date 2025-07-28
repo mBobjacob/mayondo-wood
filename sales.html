@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Record Sale - MWF</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">MWF</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sales.html">Sales</a></li>
+      <li><a href="stock.html">Stock</a></li>
+      <li><a href="report.html">Reports</a></li>
+    </ul>
+  </nav>
+  <div class="page-container">
+    <h2>Record Sale</h2>
+    <form class="form">
+      <label>Customer Name</label>
+      <input type="text" required>
+
+      <label>Product Name</label>
+      <input type="text" required>
+
+      <label>Product Type</label>
+      <input type="text" required>
+
+      <label>Quantity</label>
+      <input type="number" min="1" required>
+
+      <label>Date</label>
+      <input type="date" required>
+
+      <label>Payment Type</label>
+      <select>
+        <option>Cash</option>
+        <option>Cheque</option>
+        <option>Bank Overdraft</option>
+      </select>
+
+      <label>Transport Provided?</label>
+      <select>
+        <option>No</option>
+        <option>Yes (Add 5%)</option>
+      </select>
+
+      <label>Sales Agent Name</label>
+      <input type="text" required>
+
+      <button type="submit">Record Sale</button>
+    </form>
+  </div>
+</body>
+</html>
